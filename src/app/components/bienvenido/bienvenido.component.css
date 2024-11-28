@@ -1,0 +1,31 @@
+.anuncio-bienvenida {
+    background-color: #FFEB3B; /* Color de fondo alegre */
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 800px; /* Ancho máximo para el anuncio */
+}
+
+.anuncio-bienvenida h1 {
+    color: #FF4081; /* Color rosa para el encabezado */
+    font-size: 2.5rem; /* Tamaño grande para el título */
+    margin: 0;
+}
+
+.anuncio-bienvenida p {
+    color: #333; /* Color de texto más oscuro para mejor legibilidad */
+    font-size: 1.2rem; /* Tamaño de texto más grande para los párrafos */
+    margin: 10px 0;
+}
+
+.anuncio-bienvenida i {
+    color: #FF4081; /* Color de iconos */
+    margin-right: 5px; /* Espacio entre icono y texto */
+    transition: transform 0.3s; /* Efecto de transformación */
+}
+
+.anuncio-bienvenida i:hover {
+    transform: scale(1.2); /* Escala de iconos al pasar el mouse */
+}

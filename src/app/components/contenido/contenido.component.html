@@ -1,0 +1,21 @@
+<div class="wrapper">
+  <div class="contenedor">
+      <div class="boton-manga" (click)="obtenerMensajeFetch()">
+          <div class="manga-icon">📖</div>
+          <div class="manga-label">Leer Manga</div>
+      </div>
+      <div class="boton-manga" (click)="crearUsuario()">
+          <div class="manga-icon">✏️</div>
+          <div class="manga-label">Crear Manga</div>
+      </div>
+      <div class="boton-manga" (click)="actualizarUsuario()">
+          <div class="manga-icon">🔄</div>
+          <div class="manga-label">Actualizar Manga</div>
+      </div>
+      <div class="boton-manga" (click)="eliminarUsuario()">
+          <div class="manga-icon">🔥</div>
+          <div class="manga-label">Eliminar Manga</div>
+      </div>
+  </div>
+  <p class="mensaje">{{ mensaje }}</p>
+</div>
